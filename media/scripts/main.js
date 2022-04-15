@@ -85,7 +85,7 @@
     $("html,body").animate({
         scrollTop: 0
       },
-      800);
+      300);
   });
 
 })(jQuery);

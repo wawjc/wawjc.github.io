@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-<title>关于 - Gridea</title>
-<meta name="description" content="温故而知新">
+<title>关于 - WAWJC</title>
+<meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link type='text/css' rel='stylesheet' href='https://wawjc.github.io/styles/main.css' media='screen' />
@@ -12,6 +12,7 @@
 <link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript" src='https://wawjc.github.io/media/scripts/jquery.js'></script>
+<script type="text/javascript" src='https://wawjc.github.io/media/scripts/night.js'></script>
 <script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
@@ -35,7 +36,7 @@
 						<div class="logo">
 							<a href="https://wawjc.github.io">
 								<img class="logo"
-									src="https://wawjc.github.io/media/images/site_avatar.png?v=1649824662265"
+									src="https://wawjc.github.io/media/images/site_avatar_dark.svg?v=1649986191941"
 									alt="">
 							</a>
 						</div>
@@ -43,25 +44,32 @@
 						<div class="menu d-md-inline-block d-none">
 							<ul class="layout-navigation-list">
 								
-								<li class="layout-navigation-item"><a title="首页"
-										href="/">首页</a>
+								<li class="layout-navigation-item"><a href="/">首页</a>
 								</li>
 								
-								<li class="layout-navigation-item"><a title="归档"
-										href="/archives">归档</a>
+								<li class="layout-navigation-item"><a href="/archives">归档</a>
 								</li>
 								
-								<li class="layout-navigation-item"><a title="标签"
-										href="/tags">标签</a>
+								<li class="layout-navigation-item"><a href="/tags">标签</a>
 								</li>
 								
-								<li class="layout-navigation-item"><a title="关于"
-										href="/post/about">关于</a>
+								<li class="layout-navigation-item"><a href="/post/about">关于</a>
 								</li>
 								
+								<a class="" id="night-nav" title="Night Mode" href="javascript:;">
+									<i class="fa fa-adjust" aria-hidden="true"></i>
+								</a>
 							</ul>
 						</div>
+						
+						<div class="item d-md-inline-block d-none">
+							<div class="">
+								<i class="fa fa-adjust" aria-hidden="true"></i>
+							</div>
+						</div>
 
+						<span class="px-2"> </span>
+						
 						<div class="item d-md-inline-block d-none">
 							<div class="search-icon">
 								<i class="fa fa-search" aria-hidden="true"></i>
@@ -74,7 +82,7 @@
 							<div class="search-lightbox">
 								<div class="search-body">
 
-									<form id="gridea-search-form" data-update="1649824662265" action="/search/" class="search-form">
+									<form id="gridea-search-form" data-update="1649986191941" action="/search/" class="search-form">
 										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
 										<button type="submit" class="submit" aria-label="Submit">
 											<i class="fa fa-search" aria-hidden="true"></i>
@@ -129,22 +137,27 @@
                 <div class="layout-post-body">
                   <div class="row">
 
-                    <div class="col-12 col-lg-10">
+                    <div class="col-12 col-lg-9">
                       <div class="layout-post-main m-right m-md-right">
+                        <div class="layout-post-content">
+                          <div class="layout-post-item">
+                            
+                          </div>
+                        </div>
                         <div class="layout-post-header">
                           <h1 class="layout-post-title">关于</h1>
                           <div class="layout-post-meta">
                             <div class="item">
-                              
+                              <span>2019-01-25</span>
                             </div>
                             <div class="item">
-                              <span>2019-01-25</span>
+                              
                             </div>
                           </div>
                         </div>
                         <div class="layout-post-content">
                           <div class="layout-post-item">
-                            
+                            <!--  -->
                             <blockquote>
 <p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
 </blockquote>
@@ -176,7 +189,7 @@
                       </div>
                     </div>
 
-                    <div class="col-12 col-lg-2 d-none d-lg-block">
+                    <div class="col-12 col-lg-3 d-none d-lg-block">
                       <div class="layout-post-sidebar">
                         <div class="layout-sidebar-item">
                           <ul class="markdownIt-TOC">
@@ -204,60 +217,112 @@
 
     <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
 
-    	<div class="layout-footer">
+    <div class="layout-footer">
 
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-					<div class="footer">
-						<div class="row">
-							<div class="col-12 col-md-9">
-								<div class="footer-copy">
+	<div class="container">
+		<div class="row justify-content-lg-center">
+			<div class="col-12 col-lg-9">
+				<div class="footer">
+					<div class="row">
+						<div class="col-12 col-md-6">
+							<div class="footer-copy">
+								
+								<span>© 2018-2022 </span>
+								<a href="https://wawjc.github.io">WAWJC</a>
+								<span>ㅣ</span>
+								
+								Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+								<div class="footer-icp d-none d-sm-inline-block">
+									<span class="px-2"> </span>
 									
-									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-									<div class="footer-icp d-none d-sm-inline-block">
-										<span class="px-2">⋅</span>
-										
-									</div>
 								</div>
 							</div>
-							<div class="col-sm-3 d-none d-md-block">
-								<div class="footer-links">
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-								</div>
+						</div>
+						<div class="col-sm-6 d-none d-md-block">
+							<div class="footer-links">
+								
+								
+								<span class="px-2"> </span>
+								<span class="footer-links-item">
+									<a href="null" target="_blank">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</span>
+								
+								
+								
+								<span class="px-2"> </span>
+								<span class="footer-links-item">
+									<a href="null" target="_blank">
+										<i class="fa fa-github" aria-hidden="true"></i>
+									</a>
+								</span>
+								
+								
+								
+								<span class="px-2"> </span>
+								<span class="footer-links-item">
+									<a href="null" target="_blank">
+										<i class="fa fa-telegram" aria-hidden="true"></i>
+									</a>
+								</span>
+								
+								
+								
+								
+								
+								<span class="px-2"> </span>
+								<span class="footer-links-item">
+									<a href="null" target="_blank">
+										<i class="fa fa-instagram" aria-hidden="true"></i>
+									</a>
+								</span>
+								
+								
+								
+								<span class="px-2"> </span>
+								<span class="footer-links-item">
+									<a href="null" target="_blank">
+										<i class="fa fa-qq" aria-hidden="true"></i>
+									</a>
+								</span>
+								
+								
+								
+								<span class="px-2"> </span>
+								<span class="footer-links-item">
+									<a href="null" target="_blank">
+										<i class="fa fa-weibo" aria-hidden="true"></i>
+									</a>
+								</span>
+								
+								
+								
+								<span class="px-2"> </span>
+								<span class="footer-links-item">
+									<a href="null" target="_blank">
+										<i class="fa fa-weixin" aria-hidden="true"></i>
+									</a>
+								</span>
+								
+								
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</div>
 
-	<script type="text/javascript" src='https://wawjc.github.io/media/scripts/main.js'></script>
-	
+</div>
+
+<script type="text/javascript" src='https://wawjc.github.io/media/scripts/main.js'></script>
+
 
   </div>
 </body>
-<!-- 更进一步的拿来主义，这段代码及一定的 CSS 样式拷贝自 Gridea 的 Next 主题：https://github.com/hsxyhao/gridea-theme-next，😺 -->
+
 <script>
-  // 拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
   window.Clipboard = (function (window, document, navigator) {
     var textArea,
       copy;

@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wawjc.github.io</id>
-    <title>Gridea</title>
-    <updated>2022-04-13T04:37:46.571Z</updated>
+    <title>WAWJC</title>
+    <updated>2022-04-15T03:17:54.120Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wawjc.github.io"/>
     <link rel="self" href="https://wawjc.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
     <logo>https://wawjc.github.io/images/avatar.png</logo>
     <icon>https://wawjc.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, Gridea</rights>
+    <rights>All rights reserved 2022, WAWJC</rights>
+    <entry>
+        <title type="html"><![CDATA[TEST]]></title>
+        <id>https://wawjc.github.io/post/test/</id>
+        <link href="https://wawjc.github.io/post/test/">
+        </link>
+        <updated>2022-04-14T07:50:55.000Z</updated>
+        <content type="html"><![CDATA[<p>这是一篇测试文章测试主题文章显示效果一二三四五六七八九十百千万这是一篇测试文章测试主题文章显示效果一二三四五六七八九十百千万</p>
+<hr>
+<h1 id="测试标题一">测试标题一</h1>
+<p>处于测试和细节细化阶段</p>
+<h2 id="测试标题二">测试标题二</h2>
+<p>处于细节细化阶段</p>
+<h3 id="测试标题三">测试标题三</h3>
+<p>测试测试测试测试<a href="https://hexo.io/">中文字体链接测试</a>测试测试测试测试测试测试测试测试测试……</p>
+<p>音乐插件测试</p>
+<p>单曲</p>
+<div class="aplayer" data-id="26060065" data-server="netease" data-type="song" data-autoplay="false" data-theme="#565a5f"></div> 
+<p>歌单</p>
+<div class="aplayer" data-id="743253675" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-theme="#565a5f"></div>
+<h4 id="测试标题四">测试标题四</h4>
+<p>图片测试测试测试测试测试测试测试测试测试测试测试测测试……</p>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2018/04/20/5ad97f4c6acd4.jpg" alt="插入图片测试" loading="lazy"></figure>
+<p>测试测试测试测试测试测试测试测试测试测试测</p>
+<h5 id="测试标题五">测试标题五</h5>
+<p>测试测试测试测试测试测试测试测试测试测试测</p>
+<iframe src="//player.bilibili.com/player.html?aid=20148746&cid=36712359&page=1" width="100%" height="100%" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<p>测试测试测试测试测试测试测试测试测试测试测</p>
+<iframe frameborder="0" width="100%" height="100%" src="https://v.qq.com/iframe/player.html?vid=h0628tqefx4&tiny=0&auto=0" allowfullscreen></iframe>
+<h6 id="测试标题六">测试标题六</h6>
+<p>测试测试测试测试测试测试测试测试测试测试测</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://wawjc.github.io/post/hello-gridea/</id>
@@ -40,7 +71,7 @@
 <p>未来，它一定会成为你离不开的伙伴</p>
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
-<figure data-type="image" tabindex="1"><img src="https://images.unsplash.com/photo-1442965416224-f6a7eca980fa?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://wawjc.github.io/post-images/1649824708176.jfif" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>

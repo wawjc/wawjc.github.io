@@ -2351,7 +2351,7 @@ pre code {
   background: #292a2d;
 }
 .theme-dark code {
-  border: 1px solid #3d3c41;
+  border: 1px solid #292a2d;
   background-color: #292a2d;
 }
 figure {
@@ -2465,6 +2465,23 @@ pre > span.copy-code {
 }
 pre > span.copy-code:hover {
   color: #FFF;
+}
+.night .layout {
+  display: flex;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background: #ffffff;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  flex-direction: column;
+  flex: auto;
+}
+.night .layout.theme-dark {
+  background: #F2F4F6;
+  color: rgba(255, 255, 255, 0.45);
 }
 .layout-header {
   padding: 0;
@@ -2943,7 +2960,6 @@ pre > span.copy-code:hover {
 }
 .layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .inner .abstract p {
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
 }
 .layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .inner .abstract photo {
@@ -3039,6 +3055,9 @@ pre > span.copy-code:hover {
   height: 36px;
   margin: 1rem 0;
   border-radius: 4px;
+  background-color: #292a2d;
+  border: 1px solid #3d3c41;
+  color: rgba(255, 255, 255, 0.45);
 }
 .layout-archive,
 .layout-tags {
@@ -3329,14 +3348,11 @@ pre > span.copy-code:hover {
 .layout-post .layout-post-header .layout-post-meta {
   position: relative;
   margin: 0.5rem 0;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   font-size: 0;
   display: flex;
 }
 @media (min-width: 768px) {
-  .layout-post .layout-post-header .layout-post-meta {
-    margin: 1.5rem 0;
-  }
 }
 .layout-post .layout-post-header .layout-post-meta .item {
   position: relative;
@@ -3379,7 +3395,7 @@ pre > span.copy-code:hover {
   padding: 0;
   height: auto;
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 2;
 }
 .layout-post .layout-post-content ul > li {
@@ -3389,9 +3405,8 @@ pre > span.copy-code:hover {
 }
 .layout-post .layout-post-content img {
   display: flex;
-  margin: 1em auto;
+  margin: auto;
   max-width: 100%;
-  min-width: 100%;
   border-radius: 4px;
   background-color: #EBEDF0;
   -webket-transition: all 0.3s ease-out;
@@ -3478,7 +3493,6 @@ pre > span.copy-code:hover {
 .layout-post-sidebar .markdownIt-TOC.fixed-top {
   position: fixed;
   top: 24px;
-  max-width: 120px;
 }
 .layout-post-sidebar .markdownIt-TOC {
   border-left: 1px solid #3d3c41;
@@ -3574,6 +3588,8 @@ pre > span.copy-code:hover {
 .layout-post-navigation .post-card .card-content .card-body .header .title:focus h4,
 .layout-post-navigation .post-card .card-content .card-body .header .title:active h4 {
   color: #1890ff;
+  line-height: 1;
+  margin: -5px 0 0 0;
 }
 .layout-post-navigation .post-card .card-content .card-body .header .title h4 {
   overflow: hidden;
@@ -3581,6 +3597,8 @@ pre > span.copy-code:hover {
   color: rgba(0, 0, 0, 0.65);
   text-overflow: ellipsis;
   white-space: nowrap;
+  line-height: 1;
+  margin: -5px 0 0 0;
 }
 .layout-post-navigation .post-card .card-content .card-body .inner {
   color: rgba(0, 0, 0, 0.45);
@@ -3593,9 +3611,10 @@ pre > span.copy-code:hover {
 }
 .layout-post-navigation .post-card .card-content .card-body .inner .abstract p {
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
   margin: 0.5rem 0;
+  font-size: 13px;
+  line-height: 1.4;
 }
 .layout-post-navigation .post-card .card-content .card-body .inner .abstract photo {
   display: flex;
